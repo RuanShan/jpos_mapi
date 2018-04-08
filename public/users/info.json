@@ -1,3 +1,5 @@
 {
-  success: 0
+  "id": 1,
+  "avatar": "default.jpg",
+  "store_id": 1
 }

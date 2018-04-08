@@ -15,9 +15,9 @@ app.server = http.createServer(app);
 app.use(morgan('dev'));
 
 // 3rd party middleware
-app.use(cors({
-	exposedHeaders: config.corsHeaders
-}));
+//app.use(cors({
+//	exposedHeaders: config.corsHeaders
+//}));
 
 app.use(bodyParser.json({
 	limit : config.bodyLimit
@@ -25,9 +25,22 @@ app.use(bodyParser.json({
 
 app.use(express.static(config.public));
 
+app.all('*', (req, res, next) => {
+	res.header("Access-Control-Allow-Origin", req.headers.origin || '*');
+	res.header("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With, X-Spree-Token");
+	res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
+  res.header("Access-Control-Allow-Credentials", true); //可以带cookies
+	res.header("X-Powered-By", '3.2.1')
+	res.header("Access-Control-Max-Age", '0')
+
+	if (req.method == 'OPTIONS') {
+	  	res.sendStatus(200);
+	} else {
+	    next();
+	}
+});
 // connect to db
-//initializeDb( db => {
-  let db = null;
+initializeDb( db => {
 	// internal middleware
 	app.use(middleware({ config, db }));
 
@@ -37,6 +50,6 @@ app.use(express.static(config.public));
 	app.server.listen(process.env.PORT || config.port, () => {
 		console.log(`Started on port ${app.server.address().port}`);
 	});
-//});
+});
 
 export default app;

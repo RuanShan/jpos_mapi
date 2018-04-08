@@ -1,6 +1,5 @@
 import { version } from '../../package.json';
 import { Router } from 'express';
-import config from '../config.json';
 import facets from './facets';
 import fs from 'fs';
 import path from "path";
@@ -17,12 +16,20 @@ export default ({ config, db }) => {
 
 	api.get('/users/*', (req, res) => {
 
-		res.writeHead(200, {'Content-Type': 'application/json'});
 		let filePath = path.join( rootPath , config.public , req.originalUrl + '.json');
-		console.log( filePath, rootPath )
 	  fs.readFile(filePath, function(err, contents) {
-			console.log( contents )
-	    res.write(contents);
+			console.log(filePath, contents )
+	    res.json( JSON.parse(contents) );
+	    res.end();
+  	});
+	});
+
+	api.get('/api/*', (req, res) => {
+
+		let filePath = path.join( rootPath , config.public , req.originalUrl + '.json');
+	  fs.readFile(filePath, function(err, contents) {
+			console.log(filePath, contents )
+	    res.json( JSON.parse(contents) );
 	    res.end();
   	});
 	});

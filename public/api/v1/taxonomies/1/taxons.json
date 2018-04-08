@@ -1,0 +1,34 @@
+{
+  "taxons": [
+    {
+      "id": 2,
+      "name": "Ruby on Rails1",
+      "pretty_name": "Ruby on Rails",
+      "permalink": "brands/ruby-on-rails",
+      "parent_id": 1,
+      "taxonomy_id": 1,
+      "meta_title": "Ruby on Rails",
+      "meta_description": "Ruby on Rails",
+      "taxons": [
+        {
+          "id": 3,
+          "name": "T-Shirts",
+          "pretty_name": "T-Shirts",
+          "permalink": "brands/t-shirts",
+          "parent_id": 1,
+          "taxonomy_id": 1,
+          "meta_title": "T-Shirts",
+          "meta_description": "T-Shirts",
+          "taxons": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "count": 7,
+  "total_count": 7,
+  "current_page": 1,
+  "per_page": 25,
+  "pages": 1
+}
