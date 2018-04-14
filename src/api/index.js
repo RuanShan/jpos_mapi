@@ -24,7 +24,7 @@ export default ({ config, db }) => {
   	});
 	});
 
-	api.get('/api/*', (req, res) => {
+	api.all('/api/*', (req, res) => {
 
 		let filePath = path.join( rootPath , config.public , req.originalUrl + '.json');
 	  fs.readFile(filePath, function(err, contents) {
