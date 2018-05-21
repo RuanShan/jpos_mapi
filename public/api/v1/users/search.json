@@ -1,0 +1,172 @@
+{
+    "users": [{
+            "id": 1,
+            "email": "admin@example.com",
+            "created_at": "2018-05-16T06:27:25.000+08:00",
+            "updated_at": "2018-05-16T06:27:25.000+08:00",
+            "username": "admin",
+            "mobile": "17700000001",
+            "address": null,
+            "birth": null,
+            "memo": null
+        },
+        {
+            "id": 2,
+            "email": "manager@example.com",
+            "created_at": "2018-05-16T06:27:25.000+08:00",
+            "updated_at": "2018-05-16T06:27:25.000+08:00",
+            "username": "manager",
+            "mobile": "17700000002",
+            "address": null,
+            "birth": null,
+            "memo": null
+        },
+        {
+            "id": 3,
+            "email": "guest@example.com",
+            "created_at": "2018-05-16T06:27:25.000+08:00",
+            "updated_at": "2018-05-16T06:27:25.000+08:00",
+            "username": "guest",
+            "mobile": "17700000003",
+            "address": null,
+            "birth": null,
+            "memo": null
+        },
+        {
+            "id": 4,
+            "email": "waiter@example.com",
+            "created_at": "2018-05-16T06:27:25.000+08:00",
+            "updated_at": "2018-05-17T11:10:37.000+08:00",
+            "username": "waiter",
+            "mobile": "17700000004",
+            "address": null,
+            "birth": null,
+            "memo": null
+        },
+        {
+            "id": 5,
+            "email": "worker1@example.com",
+            "created_at": "2018-05-16T06:27:25.000+08:00",
+            "updated_at": "2018-05-16T06:27:25.000+08:00",
+            "username": "worker1",
+            "mobile": "17700000005",
+            "address": null,
+            "birth": null,
+            "memo": null
+        },
+        {
+            "id": 6,
+            "email": "worker2@example.com",
+            "created_at": "2018-05-16T06:27:25.000+08:00",
+            "updated_at": "2018-05-16T06:27:25.000+08:00",
+            "username": "worker2",
+            "mobile": "17700000006",
+            "address": null,
+            "birth": null,
+            "memo": null
+        },
+        {
+            "id": 7,
+            "email": "",
+            "created_at": "2018-05-16T10:45:38.000+08:00",
+            "updated_at": "2018-05-16T10:45:38.000+08:00",
+            "username": "david4",
+            "mobile": "13812340004",
+            "address": "大连市沙河口区西安路",
+            "birth": "2013-04-29T00:00:00.000+08:00",
+            "memo": null
+        },
+        {
+            "id": 8,
+            "email": "",
+            "created_at": "2018-05-16T10:47:32.000+08:00",
+            "updated_at": "2018-05-16T10:47:32.000+08:00",
+            "username": "david5",
+            "mobile": "13812340005",
+            "address": "大连市沙河口区西安路",
+            "birth": "2013-04-29T00:00:00.000+08:00",
+            "memo": null
+        },
+        {
+            "id": 9,
+            "email": "",
+            "created_at": "2018-05-16T11:08:19.000+08:00",
+            "updated_at": "2018-05-16T11:08:19.000+08:00",
+            "username": "TestThree",
+            "mobile": "17700000009",
+            "address": "",
+            "birth": "2018-05-05T09:00:00.000+08:00",
+            "memo": null
+        },
+        {
+            "id": 10,
+            "email": "",
+            "created_at": "2018-05-16T11:53:33.000+08:00",
+            "updated_at": "2018-05-16T11:53:33.000+08:00",
+            "username": "asdfa",
+            "mobile": "17700000010",
+            "address": "",
+            "birth": "2018-05-05T11:00:00.000+08:00",
+            "memo": null
+        },
+        {
+            "id": 11,
+            "email": "",
+            "created_at": "2018-05-16T12:07:42.000+08:00",
+            "updated_at": "2018-05-16T12:07:42.000+08:00",
+            "username": "阿斯顿发生",
+            "mobile": "17700000011",
+            "address": "士大夫",
+            "birth": "2018-05-05T16:00:00.000+08:00",
+            "memo": null
+        },
+        {
+            "id": 12,
+            "email": "",
+            "created_at": "2018-05-16T14:33:11.000+08:00",
+            "updated_at": "2018-05-16T14:33:11.000+08:00",
+            "username": "Test10",
+            "mobile": "17700000012",
+            "address": "大连市沙河口区西安路",
+            "birth": "2013-04-29T00:00:00.000+08:00",
+            "memo": null
+        },
+        {
+            "id": 13,
+            "email": "",
+            "created_at": "2018-05-16T15:21:28.000+08:00",
+            "updated_at": "2018-05-16T15:21:28.000+08:00",
+            "username": "17700000013",
+            "mobile": "17700000013",
+            "address": "",
+            "birth": "2018-05-05T09:00:00.000+08:00",
+            "memo": null
+        },
+        {
+            "id": 14,
+            "email": "",
+            "created_at": "2018-05-16T16:16:30.000+08:00",
+            "updated_at": "2018-05-16T16:16:30.000+08:00",
+            "username": "17700000014",
+            "mobile": "17700000014",
+            "address": "",
+            "birth": null,
+            "memo": null
+        },
+        {
+            "id": 15,
+            "email": "",
+            "created_at": "2018-05-17T09:36:39.000+08:00",
+            "updated_at": "2018-05-17T09:36:39.000+08:00",
+            "username": "17700000015",
+            "mobile": "17700000015",
+            "address": "",
+            "birth": "2018-05-05T22:00:00.000+08:00",
+            "memo": null
+        }
+    ],
+    "count": 15,
+    "current_page": 1,
+    "pages": 1,
+    "total_count": null
+}

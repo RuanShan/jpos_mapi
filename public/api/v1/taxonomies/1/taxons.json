@@ -1,34 +1,30 @@
 {
-  "taxons": [
-    {
-      "id": 2,
-      "name": "Ruby on Rails1",
-      "pretty_name": "Ruby on Rails",
-      "permalink": "brands/ruby-on-rails",
-      "parent_id": 1,
-      "taxonomy_id": 1,
-      "meta_title": "Ruby on Rails",
-      "meta_description": "Ruby on Rails",
-      "taxons": [
+    "taxons": [{
+            "id": 3,
+            "name": "鞋",
+            "pretty_name": "translation missing: zh-CN.spree.taxonomy_categories_name -\u003e 鞋",
+            "permalink": "xie",
+            "parent_id": 1,
+            "taxonomy_id": 1,
+            "meta_title": null,
+            "meta_description": null,
+            "taxons": []
+        },
         {
-          "id": 3,
-          "name": "T-Shirts",
-          "pretty_name": "T-Shirts",
-          "permalink": "brands/t-shirts",
-          "parent_id": 1,
-          "taxonomy_id": 1,
-          "meta_title": "T-Shirts",
-          "meta_description": "T-Shirts",
-          "taxons": [
-
-          ]
+            "id": 4,
+            "name": "包",
+            "pretty_name": "translation missing: zh-CN.spree.taxonomy_categories_name -\u003e 包",
+            "permalink": "bao",
+            "parent_id": 1,
+            "taxonomy_id": 1,
+            "meta_title": null,
+            "meta_description": null,
+            "taxons": []
         }
-      ]
-    }
-  ],
-  "count": 7,
-  "total_count": 7,
-  "current_page": 1,
-  "per_page": 25,
-  "pages": 1
+    ],
+    "count": 2,
+    "total_count": 2,
+    "current_page": 1,
+    "per_page": 25,
+    "pages": 1
 }

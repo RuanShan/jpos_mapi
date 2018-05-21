@@ -1,0 +1,35 @@
+{
+    "id": 8,
+    "email": "",
+    "created_at": "2018-05-16T10:47:32.000+08:00",
+    "updated_at": "2018-05-16T10:47:32.000+08:00",
+    "username": "david5",
+    "mobile": "13812340005",
+    "address": "大连市沙河口区西安路",
+    "birth": "2013-04-29T00:00:00.000+08:00",
+    "memo": null,
+    "bill_address": null,
+    "ship_address": null,
+    "cards": [{
+            "id": 1,
+            "user_id": 8,
+            "code": "11e3fc818354901326c76b604d330eafd9e5e6de",
+            "current_value": "6000.0",
+            "name": "PrepaidCard1000 - Master"
+        },
+        {
+            "id": 2,
+            "user_id": 8,
+            "code": "89fd47508d9d2852459e59f346676f1b739f9e7a",
+            "current_value": "2000.0",
+            "name": "PrepaidCard1000 - Master"
+        },
+        {
+            "id": 3,
+            "user_id": 8,
+            "code": "dd680dd4a47516b09798a51c6b8a814babb397ae",
+            "current_value": "2000.0",
+            "name": "PrepaidCard1000 - Master"
+        }
+    ]
+}

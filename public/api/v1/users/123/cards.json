@@ -1,0 +1,15 @@
+{
+    "cards": [{
+        "id": "6564878789",
+        "number": "888688",
+        "name": "金卡会员",
+        "current_value": "568.23",
+        "transactions": {
+            "card_id": "6564878789",
+            "amount": "568.23",
+            "creat_at": "201805061318",
+            "serialNum": "021315546",
+            "status": "OK"
+        }
+    }]
+}
